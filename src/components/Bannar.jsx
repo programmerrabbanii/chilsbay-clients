@@ -13,38 +13,41 @@ const Bannar = () => {
 
         <div className="bg-white p-5 w-full md:w-[60%] rounded-lg shadow-lg mt-5">
           <form className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <select className="border border-gray-300 p-3 rounded-md focus:outline-none">
-              <option disabled selected>
+            {/* Location Select */}
+            <select
+              defaultValue=""
+              className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+            >
+              <option value="" disabled>
                 Location
               </option>
               <option>Natore</option>
-              <option>Rajsahi</option>
-              <option>Dakha</option>
+              <option>Rajshahi</option> 
+              <option>Dhaka</option>
             </select>
 
-            <select className="border border-gray-300 p-3 rounded-md focus:outline-none">
-              <option disabled selected>
-                
-                Date
-              </option>
-              <option>Homer</option>
-              <option>Marge</option>
-              <option>Bart</option>
-              <option>Lisa</option>
-              <option>Maggie</option>
-            </select>
+            {/* Date Picker */}
+            <input
+              type="date"
+              className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
 
-            <select className="border border-gray-300 p-3 rounded-md focus:outline-none">
-              <option disabled selected>
+            {/* Activities Select */}
+            <select
+              defaultValue=""
+              className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+            >
+              <option value="" disabled>
                 Activities
               </option>
-              <option>Homer</option>
-              <option>Marge</option>
-              <option>Bart</option>
-              <option>Lisa</option>
-              <option>Maggie</option>
+              <option>Hiking</option>
+              <option>Swimming</option>
+              <option>Camping</option>
+              <option>Fishing</option>
+              <option>Boating</option>
             </select>
 
+            {/* Search Button */}
             <button className="col-span-1 md:col-span-3 bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 transition">
               Search
             </button>
