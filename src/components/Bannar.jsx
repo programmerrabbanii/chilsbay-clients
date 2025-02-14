@@ -3,13 +3,14 @@ import bgimg from "../assets/hero.png";
 const Bannar = () => {
   return (
     <section
-      className="h-screen bg-cover bg-center bg-no-repeat overflow-hidden flex items-center px-5"
+      className="h-screen bg-cover bg-center bg-no-repeat overflow-hidden flex items-center px-5 "
       style={{ backgroundImage: `url(${bgimg})` }}
     >
+      
       <div className="max-w-5xl mx-auto">
-        <h2 className="w-[50%] text-5xl md:text-6xl text-white font-bold leading-tight">
+        <h2 className="w-[60%] text-5xl md:text-6xl text-white font-bold leading-tight">
           Find amazing things to do anytime, anywhere in Lagos.
-        </h2>
+        </h2> 
 
         <div className="bg-white p-5 w-full md:w-[60%] rounded-lg shadow-lg mt-5">
           <form className="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -54,6 +55,7 @@ const Bannar = () => {
           </form>
         </div>
       </div>
+     
     </section>
   );
 };
