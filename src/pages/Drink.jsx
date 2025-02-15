@@ -1,6 +1,7 @@
 import Bannar from "../components/Bannar";
 import MoodFor from "../components/MoodFor";
 import Things from "../components/Things";
+import WhyUs from "../components/WhyUs";
 
 const Drink = () => {
     return (
@@ -8,6 +9,7 @@ const Drink = () => {
            <Bannar></Bannar>
            <MoodFor></MoodFor>
            <Things></Things>
+           <WhyUs></WhyUs>
         </div>
     );
 };
