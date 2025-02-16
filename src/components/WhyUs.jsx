@@ -15,7 +15,7 @@ const WhyUs = () => {
                 Why Use Chillsbay?
             </motion.h4>
             <motion.div 
-                className="w-10/12 mx-auto bg-gradient-to-r from-blue-100 to-blue-300 p-8 rounded-xl shadow-lg grid grid-cols-2 md:grid-cols-3 gap-4"
+                className="w-11/12 mx-auto bg-gradient-to-r from-blue-100 to-blue-300 p-8 rounded-xl shadow-lg grid grid-cols-2 md:grid-cols-3 gap-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ staggerChildren: 0.3 }}
