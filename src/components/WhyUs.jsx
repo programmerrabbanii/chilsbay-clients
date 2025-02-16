@@ -34,7 +34,7 @@ const WhyUs = () => {
                         <img className="mx-auto w-16 h-16 mb-4" src={item.img} alt="" />
                         <h3 className="text-lg font-bold text-gray-800 mb-2">{item.title}</h3>
                         <p className="text-gray-600">{item.desc}</p>
-                    </motion.div>
+                    </motion.div> 
                 ))}
             </motion.div>
         </div>
