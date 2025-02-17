@@ -33,8 +33,8 @@ const Footer = () => {
               <p>Event</p>
               <p>Club</p>
               <p>Recreation</p>
-            </div>
-            <div>
+            </div> 
+            <div> 
               <p>Blog</p>
               <p>Creaers</p>
               <p>Contact</p>
@@ -67,7 +67,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <p className="text-center text-lg mt-5">© 2025 DevRabbani. All rights reserved.</p>
+      <p className="text-center text-lg mt-5">© 2025 DevRabbani. All Rights Reserved.</p>
     </section>
   );
 };
